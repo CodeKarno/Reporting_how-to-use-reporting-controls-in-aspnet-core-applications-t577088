@@ -16,7 +16,7 @@ jobs:
       with:
         dotnet-version: 3.1.301
     - name: Install dependencies
-      run: dotnet restore -s ${{ secrets.MYNUGETFEED }} --ignore-failed-sources ./CS/Example.sln
+      run: dotnet restore -s ${{ secrets.MYNUGETFEED }} -s https://api.nuget.org/v3/index.json --ignore-failed-sources ./CS/Example.sln
     - name: Build
       run: dotnet build --configuration Release --no-restore ./CS/Example.sln
     - name: Test
