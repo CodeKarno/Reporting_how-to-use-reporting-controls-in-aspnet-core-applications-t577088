@@ -18,7 +18,7 @@ jobs:
         dotnet-version: 3.1.301
     - name: Install dependencies
       run: | 
-           dotnet nuget add source https://nuget-test.devexpress.com/api -n DXFeed -u myUsername -p ${{ secrets.MYNUGETFEED }} --store-password-in-clear-text
+           dotnet nuget add source https://nuget-test.devexpress.com/api -n DXFeed -u myUsername -p ${{ secrets.MYNUGETFEED }} 
            dotnet restore --ignore-failed-sources ./CS/Example.sln
     - name: Build
       run: dotnet build --configuration Release --no-restore ./CS/Example.sln
