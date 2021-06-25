@@ -17,5 +17,5 @@ These are the main steps to integrate these controls into an application:
 5. Use the <a href="https://docs.devexpress.com/XtraReports/DevExpress.AspNetCore.BuilderFactoryExtensions.ReportDesigner.overloads">ReportDesigner</a> and <a href="https://docs.devexpress.com/XtraReports/DevExpress.AspNetCore.BuilderFactoryExtensions.WebDocumentViewer.overloads">WebDocumentViewer </a> wrappers to display reporting controls on your web pages.
 
 
-For more information and step-by-step tutorials, refer to the following documentation topic: <a href="https://docs.devexpress.com/XtraReports/119717/create-end-user-reporting-applications/web-reporting/asp.net-core-reporting">ASP.NET Core Reporting</a>.
+For more information and step-by-step tutorials, refer to the following documentation topic: <a href="https://docs.devexpress.com/XtraReports/119717/create-end-user-reporting-applications/web-reporting/asp.net-core-reporting">ASP.NET Core Reporting</a>. 
 
